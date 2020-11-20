@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <h1>Software Order Form</h1>
+    </head>
+    <body>
+        <fieldset>
+            <legend>License details</legend>
+
+            <ul>
+                <li>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email"/>
+                </li>
+                <li>
+                    <label for="website">Website</label>
+                    <input type="website" name="website" id="website" placeholder="https://www.example.com/"/>
+                </li>
+                <li>
+                    <label for="numberOfLicense">Number of License</label>
+                    <input type="number" name="numberOfLicense" id="numberOfLicense" placeholder="How many to buy (1-10)"/>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Billing details</legend>
+
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="First Last"/>
+                </li>
+                <li>
+                    <label for="address">Address</label>
+                    <input type="url" name="address" id="address"/>
+                </li>
+                <li>
+                    <label for="postalCode">Postal Code</label>
+                    <input type="number" name="postalCode" id="postalCode" placeholder="Post code or zip code"/>
+                </li>
+                <li>
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="Australia" selected>Australia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="England">England</option>
+                        <option value="France">France</option>
+                      </select>
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Include country prefix, e.g."/>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Payment details</legend>
+            <ul>
+                <li>
+                    <label for="creditCard">Credit Card</label>
+                    <input class="inputCard" type="text" name="creditCard" id="creditCard" placeholder="As shown on the front of your card"/>
+                </li>
+                <li>
+                    <label for="cvvCode">CVV Code</label>
+                    <input type="text" name="cvvCode" id="cvvCode" maxlength="3" placeholder="3-digit number on back of your card"/>
+                </li>
+                <li>
+                    <label for="expiryDate">Expiry Date</label>
+                    <input type="text" name="expiryDate" id="expiryDate" placeholder="YYYY-MM"/>
+                </li>
+            </ul>
+        </fieldset>
+        <button>Place Your Order</button>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
